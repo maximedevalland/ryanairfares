@@ -18,7 +18,7 @@ pushover.init("APP-TOKEN")
 client = pushover.Client("USER-KEY")
 
 # scrape web page
-handle = urllib.urlopen("http://www.ryanair.com/de/fluge/nuremberg-nach-pisa")
+handle = urllib.urlopen("http://www.ryanair.com/de/fluge/nuremberg-nach-malaga")
 soup = BeautifulSoup(handle.read())
 handle.close()
 
